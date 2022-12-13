@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!--RefinedAbstraction-->
+    <className>xyz.ylx.design_pattern.structural.brige.image.JPEGImage</className>
+    <!--ConcreteImplementor-->
+    <className>xyz.ylx.design_pattern.structural.brige.imp.WindowsImp</className>
+</config>
