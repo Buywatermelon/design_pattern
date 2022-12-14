@@ -1,4 +1,4 @@
-package xyz.ylx.design_pattern.composite;
+package xyz.ylx.design_pattern.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;

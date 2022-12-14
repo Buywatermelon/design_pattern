@@ -1,5 +1,6 @@
 package xyz.ylx.design_pattern.util;
 
+import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -17,13 +18,13 @@ public class XMLUtil {
             DocumentBuilder builder = dFactory.newDocumentBuilder();
 
             Document doc;
-            doc = builder.parse(new File("C:\\Code\\design_pattern\\src\\main\\java\\xyz\\ylx\\design_pattern\\structural\\brige\\config.xml"));
+            doc = builder.parse(new File("C:\\Code\\design_pattern\\src\\main\\java\\xyz\\ylx\\design_pattern\\structural\\facade\\config.xml"));
             NodeList n1 = null;
             Node classNode = null;
             String cName = null;
             n1 = doc.getElementsByTagName("className");
 
-            if (args.equals("image")) {
+            if (args.equals("image") || StringUtils.isEmpty(args)) {
                 classNode = n1.item(0).getFirstChild();
             } else if (args.equals("os")) {
                 classNode = n1.item(1).getFirstChild();

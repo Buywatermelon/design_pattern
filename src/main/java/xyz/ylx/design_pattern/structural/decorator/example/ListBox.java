@@ -1,4 +1,4 @@
-package xyz.ylx.design_pattern.decorator.example;
+package xyz.ylx.design_pattern.structural.decorator.example;
 
 public class ListBox extends Component {
 
