@@ -1,4 +1,4 @@
-package xyz.ylx.design_pattern.behavioral;
+package xyz.ylx.design_pattern.behavioral.chian;
 
 // 副董事长类：具体处理类
 public class VicePresident extends Approver {

@@ -1,4 +1,4 @@
-package xyz.ylx.design_pattern.behavioral;
+package xyz.ylx.design_pattern.behavioral.chian;
 
 // 主任类：具体处理者
 public class Director extends Approver {

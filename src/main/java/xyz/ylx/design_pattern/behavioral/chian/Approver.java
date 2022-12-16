@@ -1,4 +1,4 @@
-package xyz.ylx.design_pattern.behavioral;
+package xyz.ylx.design_pattern.behavioral.chian;
 
 // 审批者： 抽象处理类
 public abstract class Approver {

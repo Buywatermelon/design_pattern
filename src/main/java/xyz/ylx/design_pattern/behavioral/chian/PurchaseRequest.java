@@ -1,4 +1,4 @@
-package xyz.ylx.design_pattern.behavioral;
+package xyz.ylx.design_pattern.behavioral.chian;
 
 public class PurchaseRequest {
 

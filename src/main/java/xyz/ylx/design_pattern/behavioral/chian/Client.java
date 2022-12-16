@@ -1,16 +1,18 @@
-package xyz.ylx.design_pattern.behavioral;
+package xyz.ylx.design_pattern.behavioral.chian;
 
 public class Client {
 
     public static void main(String[] args) {
-        Approver wjzhang, gyang, jguo, meeting;
+        Approver wjzhang, rhuang, gyang, jguo, meeting;
         wjzhang = new Director("张无忌");
+        rhuang = new Manager("黄蓉");
         gyang = new VicePresident("杨过");
         jguo = new President("郭靖");
         meeting = new Congress("董事会");
 
         // 创建职责链
-        wjzhang.setSuccessor(gyang);
+        wjzhang.setSuccessor(rhuang);
+        rhuang.setSuccessor(gyang);
         gyang.setSuccessor(jguo);
         jguo.setSuccessor(meeting);
 
