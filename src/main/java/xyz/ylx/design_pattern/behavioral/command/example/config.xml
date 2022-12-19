@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <className>xyz.ylx.design_pattern.behavioral.command.example.HelpCommand</className>
+    <className>xyz.ylx.design_pattern.behavioral.command.example.MinimizeCommand</className>
+</config>

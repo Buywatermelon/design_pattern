@@ -18,15 +18,15 @@ public class XMLUtil {
             DocumentBuilder builder = dFactory.newDocumentBuilder();
 
             Document doc;
-            doc = builder.parse(new File("C:\\Code\\design_pattern\\src\\main\\java\\xyz\\ylx\\design_pattern\\structural\\proxy\\config.xml"));
+            doc = builder.parse(new File("C:\\Code\\design_pattern\\src\\main\\java\\xyz\\ylx\\design_pattern\\behavioral\\command\\example\\config.xml"));
             NodeList n1 = null;
             Node classNode = null;
             String cName = null;
             n1 = doc.getElementsByTagName("className");
 
-            if (args.equals("image") || StringUtils.isEmpty(args)) {
+            if (args.equals("image") || StringUtils.isEmpty(args) || args.equals("0")) {
                 classNode = n1.item(0).getFirstChild();
-            } else if (args.equals("os")) {
+            } else if (args.equals("os") || args.equals("1")) {
                 classNode = n1.item(1).getFirstChild();
             }
 
