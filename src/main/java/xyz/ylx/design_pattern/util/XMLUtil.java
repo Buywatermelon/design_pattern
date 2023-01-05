@@ -18,7 +18,7 @@ public class XMLUtil {
             DocumentBuilder builder = dFactory.newDocumentBuilder();
 
             Document doc;
-            doc = builder.parse(new File("C:\\Code\\design_pattern\\src\\main\\java\\xyz\\ylx\\design_pattern\\behavioral\\visitor\\config.xml"));
+            doc = builder.parse(new File("C:\\Code\\design_pattern\\src\\main\\java\\xyz\\ylx\\design_pattern\\creational\\builder\\config.xml"));
             NodeList n1 = null;
             Node classNode = null;
             String cName = null;
